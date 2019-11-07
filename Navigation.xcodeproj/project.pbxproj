@@ -13,6 +13,9 @@
 		767763EA2373A2540011419F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767763E82373A2540011419F /* Main.storyboard */; };
 		767763EC2373A2540011419F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767763EB2373A2540011419F /* Assets.xcassets */; };
 		767763EF2373A2540011419F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767763ED2373A2540011419F /* LaunchScreen.storyboard */; };
+		767763F72373A5160011419F /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767763F62373A5160011419F /* EditViewController.swift */; };
+		767763FA2373ABA30011419F /* 01.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 767763F82373ABA30011419F /* 01.jpeg */; };
+		767763FB2373ABA30011419F /* 02.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 767763F92373ABA30011419F /* 02.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		767763EB2373A2540011419F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		767763EE2373A2540011419F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		767763F02373A2540011419F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767763F62373A5160011419F /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		767763F82373ABA30011419F /* 01.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpeg; sourceTree = "<group>"; };
+		767763F92373ABA30011419F /* 02.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 		767763E12373A2540011419F /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				767763F82373ABA30011419F /* 01.jpeg */,
+				767763F92373ABA30011419F /* 02.jpeg */,
 				767763E22373A2540011419F /* AppDelegate.swift */,
 				767763E42373A2540011419F /* SceneDelegate.swift */,
 				767763E62373A2540011419F /* ViewController.swift */,
 				767763E82373A2540011419F /* Main.storyboard */,
+				767763F62373A5160011419F /* EditViewController.swift */,
 				767763EB2373A2540011419F /* Assets.xcassets */,
 				767763ED2373A2540011419F /* LaunchScreen.storyboard */,
 				767763F02373A2540011419F /* Info.plist */,
@@ -125,6 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				767763FA2373ABA30011419F /* 01.jpeg in Resources */,
+				767763FB2373ABA30011419F /* 02.jpeg in Resources */,
 				767763EF2373A2540011419F /* LaunchScreen.storyboard in Resources */,
 				767763EC2373A2540011419F /* Assets.xcassets in Resources */,
 				767763EA2373A2540011419F /* Main.storyboard in Resources */,
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				767763F72373A5160011419F /* EditViewController.swift in Sources */,
 				767763E72373A2540011419F /* ViewController.swift in Sources */,
 				767763E32373A2540011419F /* AppDelegate.swift in Sources */,
 				767763E52373A2540011419F /* SceneDelegate.swift in Sources */,
