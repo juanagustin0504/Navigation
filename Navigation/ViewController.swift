@@ -12,7 +12,6 @@ class ViewController: UIViewController, EditDelegate {
     
     let img1 = UIImage(named: "01.jpeg")
     let img2 = UIImage(named: "02.jpeg")
-    
     var isOn = true
 
     @IBOutlet weak var txMessage: UITextField!
