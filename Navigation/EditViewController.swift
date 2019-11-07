@@ -35,7 +35,6 @@ class EditViewController: UIViewController {
         swIsOn.isOn = isOn
     }
     
-
     @IBAction func btnDone(_ sender: UIButton) {
         if delegate != nil {
             delegate?.didMessageEditDone(self, message: txMessage.text!)

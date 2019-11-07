@@ -22,7 +22,6 @@ class ViewController: UIViewController, EditDelegate {
         // Do any additional setup after loading the view.
         imgView.image = img1
     }
-
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let editViewController = segue.destination as! EditViewController
@@ -50,7 +49,5 @@ class ViewController: UIViewController, EditDelegate {
             self.isOn = false
         }
     }
-    
-
 }
 
